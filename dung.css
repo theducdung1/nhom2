@@ -1,0 +1,153 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 30, 2018, 5:48:40 PM
+    Author     : MyPC
+*/
+/* dang ki */
+
+
+.breadcrumb{
+	border: 1px solid black;
+	background-color: #202020;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 8px 0px;
+	color: #FFF;
+        margin-bottom: 10px;
+}
+.breadcrumb>.active{
+        color: red;
+}
+.breadcrumb li a{
+        color: #FFF;
+}
+#dangki .input_div input{
+    height: 40px;
+    width: 85%;
+}
+#dangki .input_div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    width: 100%;
+}
+#dangki .input_div .glyphicon{
+    position: static;
+    font-size: 30px;
+    line-height: 40px;
+    background: #eee;
+    height: 40px;
+    border: 1px solid #ccc;
+    float: left;
+}
+#dangki .input_div span.star{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 40px;
+}
+.val_error{
+    color: #FF1F1F;
+    font-size: 15px;
+    font-weight: bold;
+}
+.clear{
+    clear: both;
+}
+/* TIN TUC */
+#tintuc img{
+    height: 150px;
+    width: 100%;
+}
+/* CHI TIET SAN PHAM*/
+.chitietsanpham .anhto{
+    width: 100%;
+    height: 350px;
+}
+.chitietsanpham .anhto:hover{
+    border: 2px solid black;
+}
+.chitietsanpham img.anhnho{
+    width: 50px;
+    height: 50px;
+    padding: 2px;
+}
+.chitietsanpham img.anhnho:hover{
+    border: 2px solid black;
+}
+/*Modal*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    padding-top: 50px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+/* The Close Button */
+.close {
+    color: red;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.chitietsanpham .modal-content .anhto{
+    width: 300px;
+    height: 300px;
+}
+/*END MODAL*/
+.clearfix {
+    overflow: auto;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
